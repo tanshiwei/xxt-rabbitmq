@@ -60,4 +60,18 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://192.168.56.106:8081/repository/maven-releases/</url>
+            <name>Nexus Releases</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 </project>
